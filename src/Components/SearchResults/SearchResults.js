@@ -1,10 +1,10 @@
 import React from "react";
-import "./SearchResults.css";
-import Tracklist from './Tracklist/Tracklist';
+import styles from "./SearchResults.module.css";
+import Tracklist from '../Tracklist/Tracklist';
 
 function SearchResults() {
   return (
-    <div className="SearchResults">
+    <div className={styles.TrackResults}>
       <h2>Results</h2>
       <Tracklist />
     </div>
